@@ -374,7 +374,8 @@
 
         .about-text p {
             font-size: 1.1rem;
-            line-height: 1.8;
+            text-align: justify;
+            line-height: 1.6;
             margin-bottom: 1.5rem;
             color: var(--text-secondary);
         }
@@ -438,7 +439,7 @@
         /* Experience Section */
         .experience-timeline {
             position: relative;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
@@ -752,7 +753,9 @@
         }
 
         .cert-date {
-            color: var(--text-light);
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 600;
             font-size: 0.9rem;
             margin-bottom: 1rem;
         }
@@ -868,12 +871,22 @@
 
         .highlight-year {
             color: var(--accent-gold);
+            font-style: italic;
             font-weight: 600;
             font-size: 0.9rem;
         }
 
         .highlight-description {
             color: var(--text-secondary);
+            text-indent: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .highlight-description-ach {
+            color: var(--text-secondary);
+            text-indent: 20px;
+           /* text-align: justify; */
             line-height: 1.6;
         }
 
@@ -1214,7 +1227,8 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>     With a passion for technology and innovation, I've dedicated my career to developing cutting-edge solutions and leading successful projects. My journey spans multiple industries and technologies, always focused on delivering exceptional results.</p>
+                    <p style="text-indent: 50px">A passionate Engineer with a foundational degree in  <strong>Electrical and Electronics Engineering</strong> from SJBIT <span style="font-style: italic;">(Affiliated to VTU)</span>. I bring a strong analytical mindset and technical versatility shaped by my engineering background. <br></p>
+                    <p style="text-indent: 50px">My transition into IT sector reflects a deep interest in Problem-solving and building scalable digital solutions. I thrive in dynamic environments and continuously seek opportunities to grow and contribute through innovative tech.</p>
                 </div>
                 <div class="stats-grid">
                     <div class="stat-item">
@@ -1222,6 +1236,7 @@
                         <span class="stat-label">Years Experience</span>
                     </div>
                     <div class="stat-item">
+                        <span class="stat-label">
                         <span class="stat-number" data-count="2">0</span>
                         <span class="stat-label">Projects Completed</span>
                     </div>
@@ -1245,26 +1260,23 @@
                         <div class="period">15th September 2022 - Present</div>
                         <p class="job-description">
                             <ul class="job-description" style="padding-left: 5%;">
-                                <li>Providing operational support, creating and maintaining a stable and reliable GemFire environment.</li>
-                                <li>Establish GemFire standards and educate users with best practices.</li>
-                                <li>Perform GemFire cluster design and code reviews for applications and GemFire clusters.</li>
-                                <li>Perform GemFire version upgrades on a quarterly basis as per the stable version release from VMware Pivotal.</li>
-                                <li>Review and execute changes and releases related to GemFire clusters including code deployments, data operations, data loads, etc.</li>
-                                <li>Deploy regions and add nodes to the existing cluster.</li>
-                                <li>Install, configure, and implement GemFire clusters.</li>
-                                <li>Manage lifecycle and version upgrades for GemFire and underlying infrastructure.</li>
-                                <li>Configure monitoring and alerting for GemFire clusters.</li>
-                                <li>Design, manage, and monitor GemFire cluster capacity and performance.</li>
-                                <li>Design, configure, test, and execute backup, restore, and disaster recovery for GemFire.</li>
-                                <li>Design, configure, test, implement, and monitor GemFire WAN replication.</li>
-                                <li>Provide 24x7 operational response for alerting, incidents, and problems.</li>
-                                <li>Keep the environment vulnerability-free by applying OS patching on a monthly basis.</li>
+                                <li>Provide operational support by creating and maintaining a stable, secure, and reliable <strong>GemFire environment</strong>.</li>
+                                <li>Establish <strong>GemFire standards</strong>, best practices, and educate users for consistent implementation.</li>
+                                <li><strong>Design, install, configure, and upgrade</strong> GemFire clusters, including version management and node scaling.</li>
+                                <li>Perform <strong>cluster design reviews, code reviews, and release management</strong> covering deployments, data operations, and loads.</li>
+                                <li>Implement and monitor <strong>GemFire performance, capacity, and health</strong> to ensure optimal cluster efficiency.</li>
+                                <li>Configure and manage <strong>monitoring, alerting, and WAN replication</strong> for high availability and resilience.</li>
+                                <li>Design, test, and maintain <strong>backup, restore, and disaster recovery</strong> solutions for GemFire clusters.</li>
+                                <li>Provide <strong>24x7 operational support</strong> and maintain system security through regular OS patching and vulnerability management.</li>
+                                <br>
                             </ul>
                         </p>
                         <div class="skills-tags">
                             <span class="skill-tag">Pivotal GemFire</span>
                             <span class="skill-tag">Confluent Kafka</span>
                             <span class="skill-tag">Ansible</span>
+                            <span class="skill-tag">RHEL</span>
+                            <span class="skill-tag">Shell Scripting</span>
                         </div>
                     </div>
                 </div>
@@ -1276,11 +1288,12 @@
                         <div class="period">September 2022</div>
                         <p class="job-description">
                             <ul class="job-description" style="padding-left: 5%;">
-                                <li>Monitoring and troubleshooting platform infrastructure, including monitoring performance, identifying potential issues, and resolving them in a timely manner.</li>
-                                <li>Working with developers to improve the performance and reliability of the platform by providing guidance, support, and collaborating on improvements.</li>
-                                <li>Automating platform tasks to improve efficiency and reliability by reducing the need for manual intervention.</li>
-                                <li>Participating in platform planning and development, and helping to implement planned initiatives.</li>
-                                <li>Staying up-to-date on the latest cloud computing technologies to ensure the platform uses modern, efficient, and business-aligned solutions.</li>
+                                <li>Monitor and troubleshoot <strong>platform infrastructure</strong> by tracking performance, identifying issues, and resolving them promptly.</li>
+                                <li>Collaborate with developers to enhance <strong>platform performance and reliability</strong> through guidance, support, and joint improvements.</li>
+                                <li><strong>Automate platform tasks</strong> to increase efficiency, reduce manual intervention, and ensure consistent operations.</li>
+                                <li>Participate in <strong>platform planning, development, and implementation</strong> of new initiatives and improvements.</li>
+                                <li>Stay current with the latest <strong>cloud computing technologies</strong> to maintain modern, efficient, and business-aligned platform solutions.</li>
+                                <br>
                             </ul>
                         </p>
                         <div class="skills-tags">
@@ -1296,8 +1309,17 @@
                         <h3 class="job-title">Intern</h3>
                         <div class="company">CleverBit Solutions</div>
                         <div class="period">March 2022 - April 2022</div>
-                        <p class="job-description">We did "GSM-based fuel theft detection system" project. That used a level sensor to detect the fuel level in a vehicle's tank. When the fuel level dropped below a certain threshold, the system would send an SMS message to the vehicle owner and activate an alarm. The system was implemented using Embedded C and a microcontroller.</p>
-                        <div class="skills-tags">
+                        <p class="job-description">
+                            <ul class="job-description" style="padding-left: 5%;">
+                                <li>Developed a <strong>GSM-based Fuel Theft Detection System</strong> to monitor fuel levels in vehicle tanks.</li>
+                                <li>Used a <strong>fuel level sensor</strong> to detect sudden drops in fuel levels indicating possible theft.</li>
+                                <li>Implemented an automatic <strong>SMS alert system</strong> to notify the vehicle owner in real time.</li>
+                                <li>Integrated an <strong>alarm mechanism</strong> to trigger immediate on-site alerts during fuel theft.</li>
+                                <li>Designed and programmed the system using <strong>Embedded C</strong> on a <strong>microcontroller platform</strong>.</li>
+                                <li>Ensured <strong>real-time monitoring</strong> and reliable communication through GSM technology.</li>
+                                <br>
+                            </ul>
+                        </p>
                             <span class="skill-tag">Embedded C</span>
                             <span class="skill-tag">Arduino IDE</span>
                             <span class="skill-tag">ESP32</span>
@@ -1500,11 +1522,11 @@
                         </div>
                     </div>
                     <div class="cert-org">Amazon Web Services (AWS) </div>
-                    <div class="cert-date">2025 to 2028</div>
-                    <p class="highlight-description">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
+                    <div class="cert-date">Feb-2025 to Feb-2028</div>
+                    <p class="highlight-description">The <strong>AWS Certified Cloud Practitioner</strong> certification validates foundational knowledge of Amazon Web Services (AWS) cloud concepts, core services, pricing, security, and architecture principles. It is designed for individuals seeking to understand the basics of cloud computing and AWS’s global infrastructure, making it ideal for beginners, business professionals, and technical team members who want a solid foundation before pursuing advanced AWS certifications.</p>
                     <p class="highlight-description"><br></p>
                     <div class="skills-tags">
-                            <span class="cert-badge">Cloud Engineer</span>
+                            <span class="cert-badge">Foundational</span>
                             <a href="https://www.credly.com/badges/e28ad26c-0168-4f1f-a581-31e4da8e2a63/whatsapp?trk=public_profile_see-credential" target="_blank" ><span class="cert-badge">Credentials</span></a>
                     </div>
                 </div>
@@ -1518,7 +1540,7 @@
                     </div>
                     <div class="cert-org">Cisco Networking Academy</div>
                     <div class="cert-date">2024</div>
-                    <p class="highlight-description">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
+                    <p class="highlight-description">The <strong>Cisco Verified CyberOps Associate</strong> certification validates foundational knowledge and skills in cybersecurity operations, network security monitoring, and incident response. It prepares individuals to identify, analyze, and respond to cybersecurity threats in a security operations center (SOC) environment, making it ideal for those starting a career in cybersecurity or looking to enhance their understanding of modern security principles and practices.</p>
                     <p class="highlight-description"><br></p>
                     <div class="skills-tags">
                             <span class="cert-badge">CyberOps Associate</span>
@@ -1535,10 +1557,10 @@
                     </div>
                     <div class="cert-org">Cisco Networking Academy</div>
                     <div class="cert-date">2024</div>
-                    <p class="highlight-description">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
+                    <p class="highlight-description">The <strong>Introduction to CyberSecurity</strong> course provides a foundational understanding of the key concepts, threats, and practices in the field of cybersecurity. It introduces learners to topics such as data protection, network security, online safety, and the basics of cyber defense. This course is ideal for beginners who want to explore how to protect digital information and understand the growing importance of cybersecurity in today’s connected world.</p>
                     <p class="highlight-description"><br></p>
                     <div class="skills-tags">
-                            <span class="cert-badge">CyberOps Associate</span>
+                            <span class="cert-badge">Foundational</span>
                             <a href="https://www.credly.com/badges/99f0bd51-2da3-43a2-9c43-8d5115817d3b?trk=public_profile_see-credential" target="_blank" ><span class="cert-badge">Credentials</span></a>
                     </div>
                 </div>
@@ -1608,7 +1630,7 @@
                             <div class="highlight-year">2023</div>
                         </div>
                     </div>
-                    <p class="highlight-description">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
+                    <p class="highlight-description-ach">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
                 </div>
                     <div class="highlight-card">
                     <div class="highlight-header">
@@ -1618,17 +1640,17 @@
                             <div class="highlight-year">2023</div>
                         </div>
                     </div>
-                    <p class="highlight-description">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
+                    <p class="highlight-description-ach">Recognized for outstanding performance and leadership in delivering critical projects ahead of schedule.</p>
                 </div>
                 <div class="highlight-card">
                     <div class="highlight-header">
                         <i class="fas fa-lightbulb highlight-icon"></i>
                         <div>
                             <h3 class="highlight-title">10+ Automation</h3>
-                            <div class="highlight-year">2022</div>
+                            <div class="highlight-year">2022 - 2025</div>
                         </div>
                     </div>
-                    <p class="highlight-description">Developed a revolutionary solution that improved system efficiency by 40% and reduced operational costs.</p>
+                    <p class="highlight-description-ach">Developed a revolutionary solution that improved system efficiency by 40% and reduced operational costs.</p>
                 </div>
             </div>
         </div>
@@ -1685,6 +1707,7 @@
                         </a>
                     </div>
                 </div>
+                <!--
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
                         <label for="name">Full Name *</label>
@@ -1707,6 +1730,7 @@
                         Send Message
                     </button>
                 </form>
+                -->
             </div>
         </div>
     </section>
